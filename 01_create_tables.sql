@@ -2,10 +2,7 @@
 -- Run this first
 
 -- Create company_dim table
-CREATE TABLE company_dim (
-    company_id INTEGER PRIMARY KEY,
-    company_name VARCHAR UNIQUE NOT NULL
-);
+
 
 -- Create skills_dim table
 CREATE TABLE skills_dim (
