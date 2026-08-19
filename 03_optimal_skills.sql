@@ -7,7 +7,7 @@ Question: What are the most optimal skills for data engineers—balancing both d
     - The natural log transformation ensures that both high-salary and widely in-demand skills surface as the most practical and valuable to learn for data engineering careers.
 */
 
-SELECT 
+SELECT ssssssssss
     sd.skills,
     ROUND(MEDIAN(jpf.salary_year_avg), 1) AS median_salary,
     COUNT(jpf.*) AS demand_count,
