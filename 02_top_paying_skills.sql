@@ -22,7 +22,7 @@ GROUP BY
 HAVING
     COUNT(sd.skills) >= 100
 ORDER BY
-    median_salary DESC
+    median_salary ASC
 LIMIT 25;
 
 /*
